@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=yes">
+  <title>澳洲幸运10 · 玩法说明与场景速览</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #f4f9fc;
+      color: #1e2a3a;
+      line-height: 1.6;
+      padding: 0 1rem 2.5rem;
+    }
+    .wrapper {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 0.5rem;
+    }
+    /* 蓝绿色点缀基底 */
+    h1, h2, h3 {
+      color: #0f4f5f;
+      letter-spacing: 0.01em;
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 0.6rem;
+      border-left: 6px solid #1f9b9b;
+      padding-left: 0.9rem;
+    }
+    h2 {
+      font-size: 1.6rem;
+      font-weight: 500;
+      margin-top: 2.2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px dashed #b3d6d6;
+      padding-bottom: 0.4rem;
+    }
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin: 1.4rem 0 0.5rem;
+    }
+    p {
+      margin-bottom: 1rem;
+      color: #1f3a47;
+    }
+    a {
+      color: #097d7d;
+      text-decoration: underline;
+      text-underline-offset: 0.2em;
+      transition: color 0.2s ease;
+    }
+    a:hover {
+      color: #035a5a;
+    }
+    /* 网格卡片 */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin: 1.8rem 0;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 1.5rem 1.2rem;
+      box-shadow: 0 4px 12px rgba(15, 79, 95, 0.06);
+      transition: 0.2s ease-in-out;
+      border-top: 6px solid #2fa3a3;
+      display: flex;
+      flex-direction: column;
+    }
+    .card h3 {
+      margin-top: 0;
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: #115e6b;
+    }
+    .card p {
+      margin-bottom: 0;
+      flex: 1;
+    }
+    .card small {
+      display: block;
+      margin-top: 0.8rem;
+      font-size: 0.85rem;
+      color: #537b85;
+    }
+    /* 特色标注 */
+    .highlight-block {
+      background: #e1f2f2;
+      padding: 1.2rem 1.5rem;
+      border-radius: 40px 16px 16px 40px;
+      border-left: 6px solid #188f8f;
+      margin: 1.8rem 0;
+    }
+    .highlight-block p:last-child {
+      margin-bottom: 0;
+    }
+    .tag {
+      display: inline-block;
+      background: #1d9c9c;
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.2rem 0.9rem;
+      border-radius: 30px;
+      letter-spacing: 0.4px;
+      margin-right: 0.4rem;
+      margin-bottom: 0.3rem;
+    }
+    .faq-item {
+      background: #ffffff;
+      padding: 1rem 1.2rem;
+      border-radius: 18px;
+      margin-bottom: 0.7rem;
+      box-shadow: 0 2px 6px rgba(0, 40, 40, 0.04);
+      border-left: 4px solid #b6dfdf;
+    }
+    .faq-item strong {
+      color: #125d68;
+      display: block;
+      font-weight: 600;
+      margin-bottom: 0.2rem;
+    }
+    .faq-item p {
+      margin-bottom: 0;
+    }
+    .access-note {
+      background: #f0f7fa;
+      border-radius: 60px 16px 16px 60px;
+      padding: 1rem 1.5rem;
+      margin-top: 2.5rem;
+      font-size: 0.95rem;
+      border: 1px solid #cee5e5;
+    }
+    .access-note a {
+      font-weight: 500;
+    }
+    hr {
+      border: none;
+      border-top: 2px dotted #bbdbdb;
+      margin: 2rem 0 1.5rem;
+    }
+    /* 响应式微调 */
+    @media (max-width: 540px) {
+      h1 {
+        font-size: 1.9rem;
+        padding-left: 0.7rem;
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
+      .wrapper {
+        padding: 1.2rem 0;
+      }
+      .card-grid {
+        gap: 1rem;
+      }
+      .highlight-block {
+        padding: 1rem;
+        border-radius: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+
+  <h1>澳洲幸运10 · 主题说明</h1>
+  <p style="font-size: 1.1rem; margin-bottom: 1.8rem;">
+    一个以高频开奖、数字范围为特色的数字游戏体系，内容主要围绕“澳洲幸运10”这一关键词展开。以下从玩法概要、突出特点、适用场景及使用提示进行整理。
+  </p>
+
+  <!-- 摘要卡片区 -->
+  <div class="card-grid">
+    <div class="card">
+      <h3>🎲 摘要</h3>
+      <p>由数字 1 – 10 组成开奖基数的竞猜形式，每期随机生成一组号码，参与者依据不同玩法选择数字组合。开奖节奏快，结果透明。</p>
+      <small>核心：10 个数字，多组合可能</small>
+    </div>
+    <div class="card">
+      <h3>✨ 亮点</h3>
+      <p>选号空间简洁，1 至 10 的区间降低了认知门槛；多样投注方式（单式、复式、胆拖、和值等）满足不同偏好；数据更新及时，便于自行分析趋势。</p>
+    </div>
+    <div class="card">
+      <h3>🧰 使用建议</h3>
+      <p>建议先熟悉基本规则和赔率结构；做好时间与预算管理；结合历史走势或统计习惯做参考，不依赖单一方法。</p>
+    </div>
+  </div>
+
+  <!-- 特点 + 场景 融合区域 -->
+  <h2>特点与常见场景</h2>
+  <div class="highlight-block">
+    <p><span class="tag">开奖频率</span><span class="tag">10个号码</span> 每天多期开奖，周期短，满足希望快速了解结果的参与者。数字范围小，特别适合喜欢用数据记录、观察冷热号的用户。</p>
+    <p style="margin-top: 0.8rem;"><span class="tag">组合灵活</span><span class="tag">分析友好</span> 从选 1 个数字到选多个号码均可组单，复式与胆拖扩大了覆盖范围；许多参与者会自制表格或使用第三方工具辅助梳理。</p>
+    <p style="margin-top: 0.8rem;"><span class="tag">效率参考</span> 对于希望快速上手数字类游戏的人群，<a href="https://au10lucky.com">澳洲幸运10</a> 提供了清晰的规则框架和完整的开奖记录，适合作为日常参考。</p>
+  </div>
+
+  <!-- 卡片: 使用提示  -->
+  <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin: 1.6rem 0;">
+    <div style="flex: 1; min-width: 200px; background: #e7f2f3; padding: 0.8rem 1.2rem; border-radius: 50px 18px 18px 50px;">
+      <strong style="color: #0e5b66;">⏳ 时间节奏</strong>
+      <p style="margin: 0.3rem 0 0;">每期间隔短，适合快节奏查看，不建议长时间连续投注。</p>
+    </div>
+    <div style="flex: 1; min-width: 200px; background: #ddeded; padding: 0.8rem 1.2rem; border-radius: 18px 50px 50px 18px;">
+      <strong style="color: #0e5b66;">📊 记录辅助</strong>
+      <p style="margin: 0.3rem 0 0;">可自行记录号码分布，形成个人参考习惯，但无规律必然。</p>
+    </div>
+  </div>
+
+  <!-- FAQ 摘要 (非完整问答, 更像常见要点) -->
+  <h2>常见要点摘要</h2>
+  <div class="faq-item">
+    <strong>■ 澳洲幸运10与一般数字选号有何不同？</strong>
+    <p>数字池仅为 1–10，开奖号码个数与玩法相关，部分玩法需匹配位置或顺序。整体结构简洁，适合快速选择。</p>
+  </div>
+  <div class="faq-item">
+    <strong>■ 新手可以先了解什么？</strong>
+    <p>建议先阅读规则说明，尤其是选号方式与奖项对应关系。从小额、少注开始，逐步熟悉流程。可以参考 <a href="https://au10lucky.com">澳洲幸运10</a> 上的基本信息与数据。</p>
+  </div>
+  <div class="faq-item">
+    <strong>■ 数据参考的价值？</strong>
+    <p>历史开奖号码可供回顾频率分布，但每一期均为独立随机事件。参考数据可作为个人习惯，不宜作为保证。</p>
+  </div>
+
+  <hr>
+
+  <!-- 可信但克制的访问说明 -->
+  <div class="access-note">
+    <p style="font-weight: 500; margin-bottom: 0.2rem;">🔍 说明与访问</p>
+    <p style="font-size: 0.95rem;">该网站 <a href="https://au10lucky.com">澳洲幸运10</a> 提供相关规则、开奖结果与信息展示。页面内容均基于公开规则整理，不涉及任何承诺或诱导。请根据自身判断合理使用，保持理性。</p>
+  </div>
+
+  <!-- 页码微标 (不影响内容) -->
+  <div style="text-align: right; margin-top: 2.8rem; font-size: 0.75rem; color: #8faeb5; border-top: 1px solid #d2e3e3; padding-top: 0.8rem;">
+    内容整理 · 仅供了解 ｜ 关键词：澳洲幸运10
+  </div>
+
+</div>
+</body>
+</html>
